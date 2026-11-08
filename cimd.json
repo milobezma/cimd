@@ -1,0 +1,10 @@
+{
+  "client_id": "https://milobezma.github.io/cimd/cimd.json",
+  "client_name": "LinkedIn News Bot (@milovan.dev)",
+  "client_uri": "https://github.com/milobezma/cimd",
+  "redirect_uris": ["http://localhost:3100/artlist/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid offline_access"
+}
